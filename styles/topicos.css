@@ -1,7 +1,8 @@
 .tópicos.css {
-    background-color: black;
+    background-color: var(--black);
     text-align: center;
     padding: 1em 0;
+    
 }
 
 .tópicos.titulo {
@@ -23,7 +24,7 @@
 .tópicos__link {
     color: var(--branco);
     padding: 1em;
-    background-color: var(--black);
+    background-color: var(--fonte_principa);
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;

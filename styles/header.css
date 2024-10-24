@@ -48,7 +48,7 @@
 .lista-menu__link{
 background: var(--black);
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+-webkit-text-fill-color: white;
 background-clip: text;
 text-transform: uppercase;
 }
