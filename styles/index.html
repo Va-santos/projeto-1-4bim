@@ -54,7 +54,7 @@
        </ul>
 
     <div class="container">
-      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"class="container__imagem container__imagem-transparente"></a>
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
       <a href="#" class="container__link"><img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"><p class="container__texto">Minha sacola</p></a>
       <a href="#" class="container__link"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"><p class="container__texto">Meu perfil</p></a>
     </div>
@@ -68,13 +68,13 @@
 
   <section class="carrossel">
     <h2 class="carrossel__titulo">Novos lançamentos</h2>
-
+    <!-- Slider main container -->
     <div class="carrossel__container">
-      <!-- Slider main container -->
       <div class="swiper">
-
-        <div class="swiper-pagination"></div>
         <!-- Additional required wrapper -->
+         <!-- If we need pagination -->
+         <div class="swiper-pagination"></div>
+
         <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="swiper-slide"><img src="img/Apachekafka.svg" alt="Livro sobre apache kafka e spring boot da alura books"></div>
@@ -100,26 +100,27 @@
               Construindo uma aplicação integrada com a plataforma do Google.
             </p>
           </div>
+          <!-- 2º coluna -->
           <img src="img/Angular.svg" class="descrição__imagem" />
         </div>
+
+       <!-- 2} linha -->
         <div class="card__botões">
+             <!-- 1º coluna -->
           <ul class="botões">
-            <li class="botões__item">
-              <img src="img/Favoritos.svg" alt="Favoritar livro" />
-            </li>
-            <li class="botões__item">
-              <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
-            </li>
+            <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro" /></li>
+            <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras" /></li>
           </ul>
+          <!--2º coluna -->
           <a href="#" class="botões__ancora">Saiba mais</a>
         </div>
       </div>
     </div>
-
   </section>
 
   <section class=”carrossel”>
     <h2 class="carrossel__titulo">Mais vendidos</h2>
+    <!-- Alider main container -->
 
     <div class="carrossel__container">
       <div class="swiper">
@@ -198,7 +199,7 @@
         Atualizações de e-books, novos livros, promoções e outros.
       </p>
     </div>
-    <input type="email" placeholder="        Cadastre seu e-mail" class="contato__email" />
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
   </section>
 
   <hr />
@@ -214,7 +215,7 @@
     <ul class="lista-rodapé">
       <li class="lista-rodapé__titulo">Educação online</li>
       <li class="lista-rodapé__item"><img src="img/Alura.svg" alt="Logo da Alura" /><a href="#" class="lista-rodapé__link">Alura</a></li>
-      <li class="lista-rodapé__item"><img src="img/AluraEmpresas.svg" alt="Logo da AluraParaEmpresas" /><a href="#" class="lista-rodapé__link">Alura para Empresas</a></li>
+      <li class="lista-rodapé__item"><img src="img/AluraEmpresas.svg" alt="Logo da Alura Para Empresas" /><a href="#" class="lista-rodapé__link">Alura para Empresas</a></li>
       <li class="lista-rodapé__item"><img src="img/AluraLATAM.svg" alt="Logo da Alura Latam" /><a href="#" class="lista-rodapé__link">Alura LATAM</a></li>
       <li class="lista-rodapé__item"><img src="img/AluraStart.svg" alt="Logo da Alura START" /><a href="#" class="lista-rodapé__link">Alura Start</a></li>
       <li class="lista-rodapé__item"><img src="img/MusicDot.svg" alt="Logo da Music Dot" /><a href="#" class="lista-rodapé__link">Music Dot</a></li>
